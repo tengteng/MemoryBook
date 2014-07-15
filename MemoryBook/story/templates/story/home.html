@@ -1,0 +1,7 @@
+{% extends "story/base.html" %}
+{% block content %}
+{{ hello }}
+{% for line in lines %}
+  <li>{{ line.text }}</li>
+{% endfor %}
+{% endblock %}
