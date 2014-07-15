@@ -1,0 +1,12 @@
+fabric for deploy
+pip
+IPython
+south -> database migrations. will go into django.contrib
+django-debug-toolbar
+django-extras -> Graph all the things.
+crispy-forms & floppy-forms -> HTML5 form components. Client side validation. Bootstrap compatible output.
+Haystack -> API to multiple backend search engines.
+Tastypie -> Easily create RESTful api for django models. Create a tree of JSON data. Auto urls and views.
+Celery -> Spin off tasks to separate worker processes.
+easy-thumbnails -> Resize images from template tags.
+django-reversion -> Edit history and undo with admin support.
