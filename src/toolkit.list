@@ -10,3 +10,4 @@ Tastypie -> Easily create RESTful api for django models. Create a tree of JSON d
 Celery -> Spin off tasks to separate worker processes.
 easy-thumbnails -> Resize images from template tags.
 django-reversion -> Edit history and undo with admin support.
+django-redis-cache
