@@ -9,3 +9,7 @@ def home(request):
   # return HttpResponse("Hello World!")
   # return render_to_response("story/home.html", {'hello': "Hello World!"})
   return render_to_response("story/home.html", {'lines': Line.objects.all()})
+
+
+def snippet(request):
+  return render_to_response("story/snippet.html", {})

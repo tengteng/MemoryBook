@@ -10,4 +10,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'story.views.home', name='home'),
+    url(r'^new_story/', 'story.views.snippet', name='snippet')
 )
